@@ -945,6 +945,11 @@ gap: 72px 24px;
 
   }
 /* --------------modal box---------------- */
+.backdrop.is-open{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+  }
   .modal.is-open{
     visibility: visible;
     opacity: 1;
@@ -956,7 +961,7 @@ gap: 72px 24px;
     pointer-events: auto;
   }
  .backdrop{
-   
+   visibility: hidden;
     position: fixed;
     top: 0;
     left: 0;
